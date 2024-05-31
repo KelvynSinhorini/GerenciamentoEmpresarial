@@ -19,3 +19,11 @@ main {
   width: 100%;
   min-height: 100%;
 }
+
+.routes {
+  // calculando a altura da tela menos a altura da barra de navegação
+  // 80px = altura da barra de navegação
+  // 1px  = largura da borda da barra de navegação
+  // 81px
+  height: calc(100vh - 81px);
+}

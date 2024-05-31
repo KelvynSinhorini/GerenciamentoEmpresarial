@@ -44,15 +44,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.bg-gray-700 {
-  background-color: rgb(41 41 46 / 1);
-}
-
 html, body {
   height: 100%;
   background-color: #0e0e1b;
 }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.bg-gray-700 {
+  background-color: rgb(41 41 46 / 1);
+}
 
 .bg-gray-900 {
   background-color: rgb(18 18 20 / 1);
