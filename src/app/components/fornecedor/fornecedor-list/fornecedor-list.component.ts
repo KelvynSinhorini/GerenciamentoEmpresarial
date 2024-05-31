@@ -1,13 +1,17 @@
 import { FornecedorService } from './../../../core/services/fornecedor/fornecedor.service';
 import { Component, OnInit } from '@angular/core';
-import {MatTableModule} from '@angular/material/table';
+import {MatIconModule} from '@angular/material/icon';
+import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
 import { Fornecedor } from '../../../core/services/fornecedor/fornecedor';
 
 @Component({
   selector: 'app-fornecedor-list',
   standalone: true,
   imports: [
-    MatTableModule
+    MatTableModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [
     FornecedorService
